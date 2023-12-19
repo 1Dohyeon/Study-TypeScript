@@ -2,10 +2,10 @@
 const man = {
     name: "dh",
     age: 22,
-    city: "seoul",
+    // city: "seoul",
 };
 
-// 아래는 추론이 되어 에러표시가 뜸.
+// city가 없을 경우 아래는 추론이 되어 에러표시가 뜸.
 // console.log(man.city)
 
 // params가 어느 타입인지도 모르고 city라는 필드가 있는지도 모른다.
