@@ -31,6 +31,10 @@ tsc 파일 이름.ts && node 파일 이름.js
 [[1. basic-ts]]
 - 1.1 타입
 - 1.2 Interface
+- 1.3 Array
+- 1.4 enum
+- 1.5 function
+- 1.6 null & undefined
 
 ---
 
