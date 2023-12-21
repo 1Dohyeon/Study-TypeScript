@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/1Dohyeon/Study-TypeScript/issues"
   },
-  "homepage": "https://github.com/1Dohyeon/Study-TypeScript#readme"
+  "homepage": "https://github.com/1Dohyeon/Study-TypeScript#readme",
+  "devDependencies": {
+    "@tsconfig/node19": "^19.1.2",
+    "@types/node": "^20.10.5"
+  }
 }

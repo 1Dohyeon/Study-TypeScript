@@ -12,7 +12,7 @@
 
     /* Language and Environment */
     "target": "ES6",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
-    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "lib": ["DOM"],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
     
     // 데코레이션
@@ -109,6 +109,14 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "include": ["**/*.ts"],
+  "include": ["3_job/*.ts"],
   "exclude": ["node_modules"],
+  "extends": "@tsconfig/node19/tsconfig.json",
+  "ts-node": {
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "CommonJS",
+      "lib": ["DOM"]
+    }
+  }
 }
