@@ -26,9 +26,8 @@ tsc 파일 이름.ts && node 파일 이름.js
 ```
 
 ---
-### [1. basic-ts](https://github.com/1Dohyeon/Study-TypeScript/tree/main/1_basic-ts)
+### [[1. basic-ts]] - [github](https://github.com/1Dohyeon/Study-TypeScript/tree/main/1_basic-ts)
 
-[[1. basic-ts]]
 - 1.1 타입
 - 1.2 Interface
 - 1.3 Array
@@ -38,3 +37,10 @@ tsc 파일 이름.ts && node 파일 이름.js
 
 ---
 
+### [[2. Intermediate-ts]] - [github](https://github.com/1Dohyeon/Study-TypeScript/tree/main/2_intermediate-ts)
+
+- 2.1 Class
+- 2.2 Union AND Intersection
+- 2.3 Key 설정
+- 2.4 제네릭
+- 2.5 데코레이터
