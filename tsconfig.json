@@ -109,7 +109,7 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "include": ["3_job/*.ts"],
+  "include": ["**/*.ts"],
   "exclude": ["node_modules"],
   "extends": "@tsconfig/node19/tsconfig.json",
   "ts-node": {

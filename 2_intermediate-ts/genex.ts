@@ -3,7 +3,8 @@
 // extends 1 제한 안정성, 2 보장
 
 // 1 extends를 이용하여 제너릭 타입에는 string 와 number 만 참조 가능하다고 제한 가능
-function prt<T extends string | number, U>(params: T, params2: U) { // 함수에도 제너릭 표현 가능
+function prt<T extends string | number, U extends boolean | object>
+(params: T, params2: U) { // 함수에도 제너릭 표현 가능
     if(typeof params === "string") console.log("문자열");
     else if(typeof params === "number") console.log("숫자");
 
